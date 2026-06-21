@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Bh1UEZwqQUax9PDhXNqo" name="Page-3">
+    <mxGraphModel dx="2629" dy="601" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PBgPqGaANbiPLbh-ffii-35" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-86" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="پیش نویس" vertex="1">
+          <mxGeometry height="200" width="510" x="60" y="90" as="geometry">
+            <mxRectangle height="30" width="140" x="340" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-13" parent="PBgPqGaANbiPLbh-ffii-20" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Edit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-16" parent="PBgPqGaANbiPLbh-ffii-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ویرایش سوالات&amp;nbsp; تنظیمات&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-24" edge="1" parent="PBgPqGaANbiPLbh-ffii-20" source="PBgPqGaANbiPLbh-ffii-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.017;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-14" parent="PBgPqGaANbiPLbh-ffii-20" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;saved&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="370" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-23" edge="1" parent="PBgPqGaANbiPLbh-ffii-20" source="PBgPqGaANbiPLbh-ffii-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-25" parent="PBgPqGaANbiPLbh-ffii-20" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="ذخیره دستی" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-26" parent="PBgPqGaANbiPLbh-ffii-20" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="ویرایش مجدد" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-45" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-88" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="برناه ریزی شده" vertex="1">
+          <mxGeometry height="200" width="290" x="740" y="90" as="geometry">
+            <mxRectangle height="30" width="140" x="340" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-28" parent="PBgPqGaANbiPLbh-ffii-27" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;WaitStart&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-29" parent="PBgPqGaANbiPLbh-ffii-28" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;نمایش به دانشجوبان&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;قابل مشاهده اما غیرقابل ورود&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;انتشار زمانبندی&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="610" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-59" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-37" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="درحال برگزاری" vertex="1">
+          <mxGeometry height="290" width="510" x="1170" y="90" as="geometry">
+            <mxRectangle height="30" width="140" x="340" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-38" parent="PBgPqGaANbiPLbh-ffii-37" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;accept&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-50" edge="1" parent="PBgPqGaANbiPLbh-ffii-38" source="PBgPqGaANbiPLbh-ffii-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-39" parent="PBgPqGaANbiPLbh-ffii-38" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ثبت پاسخ ها و کنترل تایمر&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-52" edge="1" parent="PBgPqGaANbiPLbh-ffii-37" source="PBgPqGaANbiPLbh-ffii-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-41" parent="PBgPqGaANbiPLbh-ffii-37" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;extended&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-43" parent="PBgPqGaANbiPLbh-ffii-37" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;fontSize=15;" value="&lt;font&gt;معلم تمدید زمان کند&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-44" parent="PBgPqGaANbiPLbh-ffii-37" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;دانشجو ارسال کند&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="180" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-46" parent="PBgPqGaANbiPLbh-ffii-37" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;forceEnd&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-47" parent="PBgPqGaANbiPLbh-ffii-37" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;voluntaryEnd&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-49" edge="1" parent="PBgPqGaANbiPLbh-ffii-37" source="PBgPqGaANbiPLbh-ffii-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-51" edge="1" parent="PBgPqGaANbiPLbh-ffii-37" source="PBgPqGaANbiPLbh-ffii-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-53" parent="PBgPqGaANbiPLbh-ffii-37" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;fontSize=15;" value="انقضای زمان" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;رسیدن زمان شروع&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="1050" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-69" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2060" y="235.58823529411768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-58" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Closed&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;اتمام زمان آزمون&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="1670" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-78" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-61" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="درخال تصحیح" vertex="1">
+          <mxGeometry height="200" width="630" x="2060" y="150" as="geometry">
+            <mxRectangle height="30" width="140" x="340" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-62" parent="PBgPqGaANbiPLbh-ffii-61" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;AutoGrade&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-63" parent="PBgPqGaANbiPLbh-ffii-62" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;محاسبه نمره تستی&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-73" edge="1" parent="PBgPqGaANbiPLbh-ffii-61" source="PBgPqGaANbiPLbh-ffii-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-65" parent="PBgPqGaANbiPLbh-ffii-61" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;manualGrade&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="120" x="295" y="86.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-66" edge="1" parent="PBgPqGaANbiPLbh-ffii-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180.84" y="118.78999999999999" as="sourcePoint" />
+            <mxPoint x="369.99999999999983" y="118.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-67" parent="PBgPqGaANbiPLbh-ffii-61" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;fontSize=15;" value="اگر سوال تشریحی وجود دارد" vertex="1">
+          <mxGeometry height="30" width="80" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-72" parent="PBgPqGaANbiPLbh-ffii-61" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;marking&lt;/font&gt;" vertex="1">
+          <mxGeometry height="65" width="120" x="500" y="86.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-74" parent="PBgPqGaANbiPLbh-ffii-61" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;fontSize=16;" value="معلم نمره می دهد" vertex="1">
+          <mxGeometry height="30" width="55" x="430" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;اتمام تصحیح&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="2700" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;شروع تصحیح&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="1940" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-81" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-75" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="نهایی شده" vertex="1">
+          <mxGeometry height="200" width="290" x="2800" y="150" as="geometry">
+            <mxRectangle height="30" width="140" x="340" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-76" parent="PBgPqGaANbiPLbh-ffii-75" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Notify&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-77" parent="PBgPqGaANbiPLbh-ffii-76" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ارسال نمره به دانشجو&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-79" parent="1" style="ellipse;html=1;shape=endState;fillColor=#B2C9AB;strokeColor=#788AA3;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="3170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;آرشیو شدن&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="3160" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-90" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-83" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontStyle=1;fontFamily=Garamond;" target="PBgPqGaANbiPLbh-ffii-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-83" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="لغو شده" vertex="1">
+          <mxGeometry height="200" width="290" x="1280" y="460" as="geometry">
+            <mxRectangle height="30" width="140" x="340" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-84" parent="PBgPqGaANbiPLbh-ffii-83" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;NotifyCancel&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-85" parent="PBgPqGaANbiPLbh-ffii-84" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ارسال پیام لغو&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;حذف توسط استاد&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="840" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#46495D;fontStyle=1;fontFamily=Garamond;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;لغو توسط استاد قبل شروع&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="990" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-91" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontColor=#46495D;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="-10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PBgPqGaANbiPLbh-ffii-92" edge="1" parent="1" source="PBgPqGaANbiPLbh-ffii-91" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#46495D;fillColor=#B2C9AB;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,269 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pI4VpouhMdvnqzLUgE4h">
+    <mxGraphModel dx="2964" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;fontStyle=1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="2463.75" as="sourcePoint" />
+            <mxPoint x="310" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;fontStyle=1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="2462.5" as="sourcePoint" />
+            <mxPoint x="570" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;معلم&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;سامانه&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;دانش آموز&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="630" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-34" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#E5F9FC;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-28" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span&gt;ورود به سامانه&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-29" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="125" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-30" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-29" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;strokeWidth=3;fontStyle=1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-54" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-31" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;انتخاب درس و کلاس&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="65" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-55" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-32" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;تنظیمات کلاس&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;تاریخ و زمان و ظرفیت و فعال سازی ضبط و ...&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="15" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-56" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-36" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ایجاد جلسه&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-57" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-37" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ذخیره اطلاعات کلاس در پایگاه داده&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="380" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-58" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-38" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ارسال اعلان به دانش آموزان&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="360" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-59" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-39" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;شروع کلاس در زمان مقرر&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="70" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-60" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-40" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;فعال کردن سرور کلاس&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="340" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-61" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-41" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ایجاد لینک شرکت در کلاس&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="340" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-62" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-42" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;دریافت نوتیفیکیشن&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="730" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-63" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-43" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ورود به سامانه&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="730" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-75" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-44" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;انتخاب درس و کلیک روی لینک کلاس&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="710" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-64" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-45" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DFADF5;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="60" width="50" x="775" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FCFCFC;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;اتصال موفق؟&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="690" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-47" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;نمایش پخش زنده&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="630" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-66" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-70" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="1290" />
+              <mxPoint x="1070" y="1470" />
+              <mxPoint x="745" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-48" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;تلاش مجدد&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(حداکثر 3 بار)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="840" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-67" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-49" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#DFADF5;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="60" width="50" x="885" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;اتصال موفق؟&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="800" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-51" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="895" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-68" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-52" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ثبت خطا در گزارش&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="840" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-65" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.437;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-90" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0A0A0A;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="10" width="120" x="655" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-71" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1490" />
+              <mxPoint x="700" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;بله&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="35" x="935" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;خیر&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="40" x="840" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-82" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-76" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;اشتراک صفحه و اسلاید&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="155" x="-40" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-77" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ارسال محتوا صور و تصویر و ویدیو&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="175" x="-50" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-78" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;اجازه صحبت به دانش آموز&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="-130" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-79" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;پاسخ به سوالات متنی در چت&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="80" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0A0A0A;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="10" width="280" x="-92.5" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-94" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0A0A0A;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="10" width="255" x="-80" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-83" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=-0.147;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-95" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-91" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ارسل سوال متنی یا صوتی&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="175" x="870" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-96" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-92" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;دریافت پاسخ از معلم&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="175" x="870" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-102" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-93" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;پایان کلاس&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="85" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-103" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-97" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;توقف ضبط خودکار&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-106" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-98" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ذخیره فایل ضبط شده روی سرور ابری&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="380" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-107" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-99" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ارسال لینک باز پخش به دانشجویان&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="380" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-105" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-100" parent="1" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E5F9FC;strokeWidth=3;fontStyle=1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;ثبت گزارش حضور&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-101" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;strokeWidth=3;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="445" y="2420" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-108" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.634;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-109" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.21;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-110" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.309;entryY=-0.111;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-111" edge="1" parent="1" source="u8lWQrX8KMyy6lp75S0b-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.804;entryY=-0.111;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontStyle=1" target="u8lWQrX8KMyy6lp75S0b-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;بله&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="35" x="647" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="u8lWQrX8KMyy6lp75S0b-115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;rounded=0;strokeWidth=3;fontStyle=1" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;خیر&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="40" x="911" y="1106" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

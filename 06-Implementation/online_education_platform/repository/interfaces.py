@@ -1,136 +1,114 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
-import uuid
+from uuid import UUID
 
 from domain.user import User
 from domain.course import Course, Enrollment
-from domain.exam import Exam, ExamSubmission, Grade
+from domain.exam import Exam
 from domain.notification import Notification
+from domain.exam import ExamSubmission
+from domain.exam import Grade
 
 
+# =========================
+# USER REPOSITORY
+# =========================
 class IUserRepository(ABC):
 
     @abstractmethod
-    def add(self, user: User) -> None:
+    def save(self, user: User) -> User:
         pass
 
     @abstractmethod
-    def get_by_id(self, user_id: uuid.UUID) -> Optional[User]:
+    def find_by_id(self, id: UUID) -> Optional[User]:
         pass
 
     @abstractmethod
-    def get_all(self) -> List[User]:
+    def find_by_email(self, email: str) -> Optional[User]:
         pass
 
     @abstractmethod
-    def update(self, user: User) -> None:
-        pass
-
-    @abstractmethod
-    def delete(self, user_id: uuid.UUID) -> None:
+    def find_all_students_by_course(self, course_id: UUID) -> List[User]:
         pass
 
 
+# =========================
+# COURSE REPOSITORY
+# =========================
 class ICourseRepository(ABC):
 
     @abstractmethod
-    def add(self, course: Course) -> None:
+    def save(self, course: Course) -> Course:
         pass
 
     @abstractmethod
-    def get_by_id(self, course_id: uuid.UUID) -> Optional[Course]:
+    def find_by_id(self, id: UUID) -> Optional[Course]:
         pass
 
     @abstractmethod
-    def get_all(self) -> List[Course]:
-        pass
-
-    @abstractmethod
-    def update(self, course: Course) -> None:
-        pass
-
-    @abstractmethod
-    def delete(self, course_id: uuid.UUID) -> None:
-        pass
-
-    @abstractmethod
-    def enroll(self, enrollment: Enrollment) -> None:
-        pass
-
-    @abstractmethod
-    def get_enrollments(self, course_id: uuid.UUID) -> List[Enrollment]:
+    def find_active_courses(self) -> List[Course]:
         pass
 
 
-class IExamRepository(ABC):
-
-    @abstractmethod
-    def add(self, exam: Exam) -> None:
-        pass
-
-    @abstractmethod
-    def get_by_id(self, exam_id: uuid.UUID) -> Optional[Exam]:
-        pass
-
-    @abstractmethod
-    def get_all(self) -> List[Exam]:
-        pass
-
-    @abstractmethod
-    def update(self, exam: Exam) -> None:
-        pass
-
-    @abstractmethod
-    def delete(self, exam_id: uuid.UUID) -> None:
-        pass
-
-    @abstractmethod
-    def save_submission(self, submission: ExamSubmission) -> None:
-        pass
-
-    @abstractmethod
-    def get_submission(
-        self,
-        submission_id: uuid.UUID
-    ) -> Optional[ExamSubmission]:
-        pass
-
-    @abstractmethod
-    def save_grade(self, grade: Grade) -> None:
-        pass
-
-    @abstractmethod
-    def get_grade(
-        self,
-        submission_id: uuid.UUID
-    ) -> Optional[Grade]:
-        pass
-
-
+# =========================
+# NOTIFICATION REPOSITORY
+# =========================
 class INotificationRepository(ABC):
 
     @abstractmethod
-    def add(self, notification: Notification) -> None:
+    def save(self, notification: Notification) -> Notification:
         pass
 
     @abstractmethod
-    def get_by_id(
+    def find_unread_by_user_id(self, user_id: UUID) -> List[Notification]:
+        pass
+
+
+# =========================
+# EXAM REPOSITORY
+# =========================
+class IExamRepository(ABC):
+
+    @abstractmethod
+    def save(self, exam: Exam) -> Exam:
+        pass
+
+    @abstractmethod
+    def find_by_id(self, id: UUID) -> Optional[Exam]:
+        pass
+
+    @abstractmethod
+    def find_upcoming_exams(self) -> List[Exam]:
+        pass
+
+
+# =========================
+# CLASS SESSION REPOSITORY
+# =========================
+class IClassSessionRepository(ABC):
+
+    @abstractmethod
+    def save(self, session) -> object:
+        pass
+
+    @abstractmethod
+    def find_active_sessions(self) -> List:
+        pass
+
+
+# =========================
+# ENROLLMENT REPOSITORY
+# =========================
+class IEnrollmentRepository(ABC):
+
+    @abstractmethod
+    def save(self, enrollment: Enrollment) -> Enrollment:
+        pass
+
+    @abstractmethod
+    def find_by_student_and_course(
         self,
-        notification_id: uuid.UUID
-    ) -> Optional[Notification]:
-        pass
-
-    @abstractmethod
-    def get_user_notifications(
-        self,
-        user_id: uuid.UUID
-    ) -> List[Notification]:
-        pass
-
-    @abstractmethod
-    def update(self, notification: Notification) -> None:
-        pass
-
-    @abstractmethod
-    def delete(self, notification_id: uuid.UUID) -> None:
+        student_id: UUID,
+        course_id: UUID
+    ) -> Optional[Enrollment]:
         pass

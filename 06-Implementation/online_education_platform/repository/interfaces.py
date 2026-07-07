@@ -1,114 +1,91 @@
 from abc import ABC, abstractmethod
-from typing import List, Optional
-from uuid import UUID
-
-from domain.user import User
-from domain.course import Course, Enrollment
-from domain.exam import Exam
-from domain.notification import Notification
-from domain.exam import ExamSubmission
-from domain.exam import Grade
 
 
-# =========================
-# USER REPOSITORY
-# =========================
 class IUserRepository(ABC):
-
     @abstractmethod
-    def save(self, user: User) -> User:
+    def save(self, user):
         pass
 
     @abstractmethod
-    def find_by_id(self, id: UUID) -> Optional[User]:
+    def findById(self, id):
         pass
 
     @abstractmethod
-    def find_by_email(self, email: str) -> Optional[User]:
+    def findByEmail(self, email):
         pass
 
     @abstractmethod
-    def find_all_students_by_course(self, course_id: UUID) -> List[User]:
+    def findAllStudentsByCourse(self, courseId):
         pass
 
 
-# =========================
-# COURSE REPOSITORY
-# =========================
-class ICourseRepository(ABC):
-
-    @abstractmethod
-    def save(self, course: Course) -> Course:
-        pass
-
-    @abstractmethod
-    def find_by_id(self, id: UUID) -> Optional[Course]:
-        pass
-
-    @abstractmethod
-    def find_active_courses(self) -> List[Course]:
-        pass
-
-
-# =========================
-# NOTIFICATION REPOSITORY
-# =========================
-class INotificationRepository(ABC):
-
-    @abstractmethod
-    def save(self, notification: Notification) -> Notification:
-        pass
-
-    @abstractmethod
-    def find_unread_by_user_id(self, user_id: UUID) -> List[Notification]:
-        pass
-
-
-# =========================
-# EXAM REPOSITORY
-# =========================
-class IExamRepository(ABC):
-
-    @abstractmethod
-    def save(self, exam: Exam) -> Exam:
-        pass
-
-    @abstractmethod
-    def find_by_id(self, id: UUID) -> Optional[Exam]:
-        pass
-
-    @abstractmethod
-    def find_upcoming_exams(self) -> List[Exam]:
-        pass
-
-
-# =========================
-# CLASS SESSION REPOSITORY
-# =========================
 class IClassSessionRepository(ABC):
-
     @abstractmethod
-    def save(self, session) -> object:
+    def save(self, session):
         pass
 
     @abstractmethod
-    def find_active_sessions(self) -> List:
+    def findActiveSessions(self):
         pass
 
 
-# =========================
-# ENROLLMENT REPOSITORY
-# =========================
+class INotificationRepository(ABC):
+    @abstractmethod
+    def save(self, notification):
+        pass
+
+    @abstractmethod
+    def findUnreadByUserId(self, userId):
+        pass
+
+
+class IExamRepository(ABC):
+    @abstractmethod
+    def save(self, exam):
+        pass
+
+    @abstractmethod
+    def findById(self, id):
+        pass
+
+    @abstractmethod
+    def findUpcomingExams(self):
+        pass
+
+
+class ISubmissionRepository(ABC):
+    @abstractmethod
+    def save(self, submission):
+        pass
+
+    @abstractmethod
+    def findById(self, id):
+        pass
+
+    @abstractmethod
+    def findByStudentAndExam(self, studentId, examId):
+        pass
+
+
 class IEnrollmentRepository(ABC):
-
     @abstractmethod
-    def save(self, enrollment: Enrollment) -> Enrollment:
+    def save(self, enrollment):
         pass
 
     @abstractmethod
-    def find_by_student_and_course(
-        self,
-        student_id: UUID,
-        course_id: UUID
-    ) -> Optional[Enrollment]:
+    def findByStudentAndCourse(self, studentId, courseId):
+        pass
+
+
+class ICourseRepository(ABC):
+    @abstractmethod
+    def save(self, course):
+        pass
+
+    @abstractmethod
+    def findById(self, id):
+        pass
+
+    @abstractmethod
+    def findActiveCourses(self):
         pass

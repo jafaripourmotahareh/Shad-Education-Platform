@@ -1,14 +1,17 @@
-import uuid
-from domain.base_entity import BaseEntity
+from datetime import datetime
+from .base_entity import BaseEntity
+
 
 class Notification(BaseEntity):
-    def __init__(self, user_id: uuid.UUID, title: str, message: str):
-        super().__init__()
-        self.user_id = user_id
+    def __init__(self, userId, type, title, message, targetLink="", entity_id=None):
+        super().__init__(entity_id)
+        self.userId = userId
+        self.type = type
         self.title = title
         self.message = message
-        self.is_read = False
-        self.sent_at = self.created_at
+        self.IsRead = False
+        self.targetLink = targetLink
+        self.sentAt = datetime.now()
 
-        def mark_as_read(self) -> None :
-            self.is_read = True
+    def markAsRead(self):
+        self.IsRead = True

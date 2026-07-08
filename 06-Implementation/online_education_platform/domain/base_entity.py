@@ -1,6 +1,7 @@
 import uuid
 from datetime import datetime
 
+
 class BaseEntity:
         def __init__(self, entity_id=None):
            self._id = entity_id or uuid.uuid4()

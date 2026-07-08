@@ -1,77 +1,49 @@
-from __future__ import annotations
-
-import logging
-from abc import ABC, abstractmethod
-
-from event.event_models import Event
-
-logger = logging.getLogger(__name__)
+from domain.notification import Notification
 
 
-class BaseEventListener(ABC):
-    """
-    Abstract base class for all event listeners.
-    """
+class NotificationEventListener:
 
-    @abstractmethod
-    def handle(self, event: Event) -> None:
-        """
-        Process an incoming event.
-        """
-        pass
+    def __init__(self, notification_service):
+        self.notification_service = notification_service
 
+    def handleEvent(self, event):
+        notification = self.generateNotificationContent(event)
 
-class LoggingListener(BaseEventListener):
-    """
-    Logs all published events.
-    """
+        if notification.userId:
+            self.notification_service.send(notification)
 
-    def handle(self, event: Event) -> None:
-        logger.info(
-            "[EVENT] %s | Payload=%s | Time=%s",
-            event.event_type.value,
-            event.payload,
-            event.timestamp,
+    def generateNotificationContent(self, event):
+        user_id = getattr(event, "userId", None)
+        event_message = getattr(event, "message", str(event))
+        event_title = getattr(event, "title", "New System Event Notification")
+
+        return Notification(
+            userId=user_id,
+            type="system",
+            title=event_title,
+            message=event_message,
+            targetLink=""
         )
 
 
-class AuditListener(BaseEventListener):
-    """
-    Stores audit information.
-    """
+class ExamEventListener:
 
-    def handle(self, event: Event) -> None:
-        logger.info(
-            "[AUDIT] %s processed successfully.",
-            event.event_type.value,
-        )
+    def __init__(self, notification_service):
+        self.notification_service = notification_service
 
+    def handleEvent(self, event):
+        self.sendProctoringAlert(event)
 
-class NotificationListener(BaseEventListener):
-    """
-    Handles notification-related events.
+    def sendProctoringAlert(self, event):
+        user_id = getattr(event, "userId", None)
 
-    NotificationService will be integrated later.
-    """
+        if user_id:
+            notification = Notification(
+                userId=user_id,
+                type="exam",
+                title="Proctoring Alert",
+                message="Exam focus shift or warning event detected.",
+                targetLink=""
+            )
 
-    def handle(self, event: Event) -> None:
-        logger.info(
-            "[NOTIFICATION] Event=%s Payload=%s",
-            event.event_type.value,
-            event.payload,
-        )
-
-
-class GradeListener(BaseEventListener):
-    """
-    Handles grading-related events.
-
-    GradeService will be integrated later.
-    """
-
-    def handle(self, event: Event) -> None:
-        logger.info(
-            "[GRADE] Event=%s Payload=%s",
-            event.event_type.value,
-            event.payload,
-        )
+            self.notification_service.send(notification)

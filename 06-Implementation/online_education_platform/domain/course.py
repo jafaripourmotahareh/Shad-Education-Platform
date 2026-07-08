@@ -1,23 +1,44 @@
-import uuid
-from typing import List
-from domain.base_entity import BaseEntity
+from .base_entity import BaseEntity
+
+
+class Content(BaseEntity):
+    def __init__(self, title, contentType, data, entity_id=None):
+        super().__init__(entity_id)
+        self.title = title
+        self.contentType = contentType
+        self.data = data
+
 
 class Course(BaseEntity):
-    def __init__(self, title: str, description: str, teacher_id: uuid.UUID):
-        super().__init__()
+    def __init__(
+        self,
+        title,
+        description,
+        teacherId,
+        startDate,
+        endDate,
+        status="draft",
+        entity_id=None,
+    ):
+        super().__init__(entity_id)
         self.title = title
         self.description = description
-        self.teacher_id = teacher_id
-        self.status = "DRAFT" #یا باید DRAFT باشه یا PUBLISHED یا ARCHIVED
-        self._contents: List = []
+        self.teacherId = teacherId
+        self.startDate = startDate
+        self.endDate = endDate
+        self.status = status
+        self.contents = []
+        self.enrolledStudents = []
 
-        def add_content(self, content) -> None:
-            self._contents.append(content)
+    def addContent(self, content):
+        self.contents.append(content)
 
-class Enrollment(BaseEntity):
-    def __init__(self, student_id: uuid.UUID, course_id: uuid.UUID):
-        super().__init__()
-        self.student_id = student_id
-        self.course_id = course_id
-        self.progress_percent = 0.0
-        self.status = "ACTIVE"
+    def getCourseContent(self):
+        return list(self.contents)
+
+    def addStudent(self, studentId):
+        if studentId not in self.enrolledStudents:
+            self.enrolledStudents.append(studentId)
+
+    def getEnrolledStudents(self):
+        return list(self.enrolledStudents)

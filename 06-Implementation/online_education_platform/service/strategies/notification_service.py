@@ -1,0 +1,7 @@
+online_education_platform/service/notification_service.py
+class NotificationService: def init(self, notification_repository):self.notification_repository = notification_repository
+  def send(self, notification): return self.notification_repository.save(notification)
+    def getUnreadByUserId(self, userId): return self.notification_repository.findUnreadByUserId(userId) 
+      def markAllAsRead(self, userId): unread_notifications = self.notification_repository.findUnreadByUserId(userId) 
+        for notification in unread_notifications: notification.markAsRead() self.notification_repository.save(notification) 
+return unread_notifications
